@@ -1,0 +1,35 @@
+{
+  "seeds": [
+    11,
+    23,
+    42,
+    71,
+    97
+  ],
+  "config": {
+    "population": 64,
+    "generations": 60
+  },
+  "hubs": 5,
+  "budget": 210,
+  "radius": 2.4,
+  "weights": [
+    0.45,
+    0.4,
+    0.15
+  ],
+  "fixture": "data/synthetic_city.json",
+  "summary": {
+    "Outage-aware": {
+      "stressed_robust_access": 0.5302702505425544,
+      "stressed_worst_group_access": 0.15317825314034333,
+      "cost": 157.0
+    },
+    "Without outage scenarios": {
+      "stressed_robust_access": 0.536996483693777,
+      "stressed_worst_group_access": 0.13287696888161005,
+      "cost": 154.2
+    }
+  },
+  "interpretation": "Post-hoc stress scoring of a compromise chosen within each planning model. This isolates inclusion of closure scenarios, not an out-of-distribution guarantee."
+}

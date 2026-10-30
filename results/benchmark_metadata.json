@@ -1,0 +1,1034 @@
+{
+  "coolhaven_version": "0.1.0",
+  "python": "3.14.4",
+  "numpy": "2.5.4",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "population": 64,
+  "generations": 60,
+  "evaluation_budget": 3904,
+  "seeds": [
+    11,
+    23,
+    42,
+    71,
+    97
+  ],
+  "hubs": 5,
+  "budget": 210,
+  "radius": 2.4,
+  "preference_weights": [
+    0.45,
+    0.4,
+    0.15
+  ],
+  "hypervolume_reference": [
+    1,
+    1,
+    1
+  ],
+  "scenario": {
+    "name": "Six Neighbourhoods",
+    "provenance": "Synthetic teaching fixture, NumPy PCG64 seed 17; no real locations or observations.",
+    "demand": [
+      {
+        "id": "D01",
+        "group": "Westbank",
+        "x": 1.263,
+        "y": 0.942,
+        "population": 402,
+        "vulnerability": 0.444,
+        "heat": 1.007
+      },
+      {
+        "id": "D02",
+        "group": "Westbank",
+        "x": 0.808,
+        "y": 0.46,
+        "population": 457,
+        "vulnerability": 0.739,
+        "heat": 0.908
+      },
+      {
+        "id": "D03",
+        "group": "Westbank",
+        "x": 0.778,
+        "y": 0.1,
+        "population": 236,
+        "vulnerability": 0.948,
+        "heat": 1.316
+      },
+      {
+        "id": "D04",
+        "group": "Westbank",
+        "x": 1.048,
+        "y": 0.602,
+        "population": 196,
+        "vulnerability": 0.637,
+        "heat": 0.903
+      },
+      {
+        "id": "D05",
+        "group": "Westbank",
+        "x": 1.09,
+        "y": 0.845,
+        "population": 467,
+        "vulnerability": 0.604,
+        "heat": 1.126
+      },
+      {
+        "id": "D06",
+        "group": "Westbank",
+        "x": 0.543,
+        "y": 0.944,
+        "population": 404,
+        "vulnerability": 0.471,
+        "heat": 1.002
+      },
+      {
+        "id": "D07",
+        "group": "Westbank",
+        "x": 1.651,
+        "y": 0.1,
+        "population": 298,
+        "vulnerability": 0.943,
+        "heat": 1.183
+      },
+      {
+        "id": "D08",
+        "group": "Westbank",
+        "x": 1.554,
+        "y": 0.701,
+        "population": 342,
+        "vulnerability": 0.678,
+        "heat": 1.157
+      },
+      {
+        "id": "D09",
+        "group": "Westbank",
+        "x": 0.646,
+        "y": 0.835,
+        "population": 270,
+        "vulnerability": 0.673,
+        "heat": 1.171
+      },
+      {
+        "id": "D10",
+        "group": "Westbank",
+        "x": 0.1,
+        "y": 0.754,
+        "population": 414,
+        "vulnerability": 0.164,
+        "heat": 1.055
+      },
+      {
+        "id": "D11",
+        "group": "Westbank",
+        "x": 0.457,
+        "y": 0.242,
+        "population": 156,
+        "vulnerability": 0.591,
+        "heat": 1.258
+      },
+      {
+        "id": "D12",
+        "group": "Westbank",
+        "x": 0.479,
+        "y": 1.28,
+        "population": 490,
+        "vulnerability": 0.428,
+        "heat": 1.174
+      },
+      {
+        "id": "D13",
+        "group": "Old Quarter",
+        "x": 2.597,
+        "y": 0.835,
+        "population": 286,
+        "vulnerability": 0.335,
+        "heat": 1.199
+      },
+      {
+        "id": "D14",
+        "group": "Old Quarter",
+        "x": 2.986,
+        "y": 0.331,
+        "population": 436,
+        "vulnerability": 0.625,
+        "heat": 1.45
+      },
+      {
+        "id": "D15",
+        "group": "Old Quarter",
+        "x": 3.72,
+        "y": 0.1,
+        "population": 548,
+        "vulnerability": 0.503,
+        "heat": 1.357
+      },
+      {
+        "id": "D16",
+        "group": "Old Quarter",
+        "x": 2.472,
+        "y": 0.526,
+        "population": 284,
+        "vulnerability": 0.437,
+        "heat": 1.105
+      },
+      {
+        "id": "D17",
+        "group": "Old Quarter",
+        "x": 1.945,
+        "y": 1.072,
+        "population": 312,
+        "vulnerability": 0.349,
+        "heat": 1.552
+      },
+      {
+        "id": "D18",
+        "group": "Old Quarter",
+        "x": 2.725,
+        "y": 0.829,
+        "population": 199,
+        "vulnerability": 0.84,
+        "heat": 1.328
+      },
+      {
+        "id": "D19",
+        "group": "Old Quarter",
+        "x": 2.496,
+        "y": 0.629,
+        "population": 443,
+        "vulnerability": 0.276,
+        "heat": 1.457
+      },
+      {
+        "id": "D20",
+        "group": "Old Quarter",
+        "x": 2.271,
+        "y": 0.597,
+        "population": 450,
+        "vulnerability": 0.679,
+        "heat": 1.537
+      },
+      {
+        "id": "D21",
+        "group": "Old Quarter",
+        "x": 2.342,
+        "y": 1.0,
+        "population": 484,
+        "vulnerability": 0.592,
+        "heat": 1.562
+      },
+      {
+        "id": "D22",
+        "group": "Old Quarter",
+        "x": 3.045,
+        "y": 0.883,
+        "population": 411,
+        "vulnerability": 0.482,
+        "heat": 1.438
+      },
+      {
+        "id": "D23",
+        "group": "Old Quarter",
+        "x": 2.673,
+        "y": 0.514,
+        "population": 253,
+        "vulnerability": 0.565,
+        "heat": 1.139
+      },
+      {
+        "id": "D24",
+        "group": "Old Quarter",
+        "x": 2.405,
+        "y": 1.282,
+        "population": 536,
+        "vulnerability": 0.505,
+        "heat": 1.234
+      },
+      {
+        "id": "D25",
+        "group": "Eastbank",
+        "x": 4.647,
+        "y": 0.852,
+        "population": 288,
+        "vulnerability": 0.185,
+        "heat": 1.339
+      },
+      {
+        "id": "D26",
+        "group": "Eastbank",
+        "x": 4.115,
+        "y": 0.233,
+        "population": 206,
+        "vulnerability": 0.816,
+        "heat": 1.187
+      },
+      {
+        "id": "D27",
+        "group": "Eastbank",
+        "x": 4.865,
+        "y": 0.523,
+        "population": 160,
+        "vulnerability": 0.152,
+        "heat": 1.22
+      },
+      {
+        "id": "D28",
+        "group": "Eastbank",
+        "x": 5.31,
+        "y": 0.591,
+        "population": 501,
+        "vulnerability": 0.442,
+        "heat": 1.192
+      },
+      {
+        "id": "D29",
+        "group": "Eastbank",
+        "x": 3.908,
+        "y": 1.327,
+        "population": 616,
+        "vulnerability": 0.201,
+        "heat": 1.212
+      },
+      {
+        "id": "D30",
+        "group": "Eastbank",
+        "x": 4.086,
+        "y": 0.24,
+        "population": 326,
+        "vulnerability": 0.286,
+        "heat": 1.169
+      },
+      {
+        "id": "D31",
+        "group": "Eastbank",
+        "x": 4.14,
+        "y": 0.745,
+        "population": 325,
+        "vulnerability": 0.917,
+        "heat": 1.161
+      },
+      {
+        "id": "D32",
+        "group": "Eastbank",
+        "x": 3.425,
+        "y": 1.324,
+        "population": 151,
+        "vulnerability": 0.255,
+        "heat": 1.341
+      },
+      {
+        "id": "D33",
+        "group": "Eastbank",
+        "x": 3.433,
+        "y": 0.968,
+        "population": 503,
+        "vulnerability": 0.895,
+        "heat": 1.238
+      },
+      {
+        "id": "D34",
+        "group": "Eastbank",
+        "x": 4.548,
+        "y": 0.643,
+        "population": 532,
+        "vulnerability": 0.334,
+        "heat": 1.01
+      },
+      {
+        "id": "D35",
+        "group": "Eastbank",
+        "x": 4.377,
+        "y": 0.661,
+        "population": 212,
+        "vulnerability": 0.877,
+        "heat": 1.211
+      },
+      {
+        "id": "D36",
+        "group": "Eastbank",
+        "x": 3.706,
+        "y": 0.771,
+        "population": 175,
+        "vulnerability": 0.74,
+        "heat": 1.349
+      },
+      {
+        "id": "D37",
+        "group": "Garden",
+        "x": 1.311,
+        "y": 2.266,
+        "population": 631,
+        "vulnerability": 0.204,
+        "heat": 1.203
+      },
+      {
+        "id": "D38",
+        "group": "Garden",
+        "x": 0.1,
+        "y": 2.688,
+        "population": 680,
+        "vulnerability": 0.213,
+        "heat": 0.98
+      },
+      {
+        "id": "D39",
+        "group": "Garden",
+        "x": 0.38,
+        "y": 2.967,
+        "population": 650,
+        "vulnerability": 0.562,
+        "heat": 1.255
+      },
+      {
+        "id": "D40",
+        "group": "Garden",
+        "x": 1.108,
+        "y": 2.386,
+        "population": 447,
+        "vulnerability": 0.17,
+        "heat": 1.215
+      },
+      {
+        "id": "D41",
+        "group": "Garden",
+        "x": 0.19,
+        "y": 2.591,
+        "population": 368,
+        "vulnerability": 0.369,
+        "heat": 1.288
+      },
+      {
+        "id": "D42",
+        "group": "Garden",
+        "x": 0.632,
+        "y": 2.516,
+        "population": 348,
+        "vulnerability": 0.617,
+        "heat": 0.919
+      },
+      {
+        "id": "D43",
+        "group": "Garden",
+        "x": 0.799,
+        "y": 2.402,
+        "population": 166,
+        "vulnerability": 0.286,
+        "heat": 1.095
+      },
+      {
+        "id": "D44",
+        "group": "Garden",
+        "x": 0.668,
+        "y": 1.843,
+        "population": 297,
+        "vulnerability": 0.323,
+        "heat": 1.239
+      },
+      {
+        "id": "D45",
+        "group": "Garden",
+        "x": 0.518,
+        "y": 2.726,
+        "population": 273,
+        "vulnerability": 0.572,
+        "heat": 1.16
+      },
+      {
+        "id": "D46",
+        "group": "Garden",
+        "x": 0.689,
+        "y": 2.627,
+        "population": 208,
+        "vulnerability": 0.366,
+        "heat": 0.909
+      },
+      {
+        "id": "D47",
+        "group": "Garden",
+        "x": 0.783,
+        "y": 2.664,
+        "population": 471,
+        "vulnerability": 0.367,
+        "heat": 1.116
+      },
+      {
+        "id": "D48",
+        "group": "Garden",
+        "x": 0.54,
+        "y": 2.359,
+        "population": 320,
+        "vulnerability": 0.462,
+        "heat": 1.183
+      },
+      {
+        "id": "D49",
+        "group": "Market",
+        "x": 2.639,
+        "y": 2.271,
+        "population": 171,
+        "vulnerability": 0.493,
+        "heat": 1.246
+      },
+      {
+        "id": "D50",
+        "group": "Market",
+        "x": 3.121,
+        "y": 2.822,
+        "population": 320,
+        "vulnerability": 0.625,
+        "heat": 1.119
+      },
+      {
+        "id": "D51",
+        "group": "Market",
+        "x": 2.442,
+        "y": 2.581,
+        "population": 619,
+        "vulnerability": 0.269,
+        "heat": 1.31
+      },
+      {
+        "id": "D52",
+        "group": "Market",
+        "x": 2.284,
+        "y": 2.847,
+        "population": 536,
+        "vulnerability": 0.755,
+        "heat": 1.0
+      },
+      {
+        "id": "D53",
+        "group": "Market",
+        "x": 2.358,
+        "y": 2.58,
+        "population": 320,
+        "vulnerability": 0.281,
+        "heat": 1.375
+      },
+      {
+        "id": "D54",
+        "group": "Market",
+        "x": 2.902,
+        "y": 1.596,
+        "population": 333,
+        "vulnerability": 0.443,
+        "heat": 1.311
+      },
+      {
+        "id": "D55",
+        "group": "Market",
+        "x": 2.83,
+        "y": 2.021,
+        "population": 650,
+        "vulnerability": 0.651,
+        "heat": 0.906
+      },
+      {
+        "id": "D56",
+        "group": "Market",
+        "x": 2.374,
+        "y": 2.494,
+        "population": 309,
+        "vulnerability": 0.416,
+        "heat": 1.393
+      },
+      {
+        "id": "D57",
+        "group": "Market",
+        "x": 2.393,
+        "y": 2.434,
+        "population": 151,
+        "vulnerability": 0.657,
+        "heat": 1.089
+      },
+      {
+        "id": "D58",
+        "group": "Market",
+        "x": 2.298,
+        "y": 2.025,
+        "population": 271,
+        "vulnerability": 0.725,
+        "heat": 1.038
+      },
+      {
+        "id": "D59",
+        "group": "Market",
+        "x": 2.496,
+        "y": 2.622,
+        "population": 214,
+        "vulnerability": 0.904,
+        "heat": 1.294
+      },
+      {
+        "id": "D60",
+        "group": "Market",
+        "x": 2.832,
+        "y": 2.796,
+        "population": 471,
+        "vulnerability": 0.396,
+        "heat": 1.059
+      },
+      {
+        "id": "D61",
+        "group": "Riverside",
+        "x": 3.888,
+        "y": 2.961,
+        "population": 671,
+        "vulnerability": 0.218,
+        "heat": 1.283
+      },
+      {
+        "id": "D62",
+        "group": "Riverside",
+        "x": 3.206,
+        "y": 2.484,
+        "population": 463,
+        "vulnerability": 0.499,
+        "heat": 1.454
+      },
+      {
+        "id": "D63",
+        "group": "Riverside",
+        "x": 4.2,
+        "y": 2.225,
+        "population": 700,
+        "vulnerability": 0.742,
+        "heat": 1.136
+      },
+      {
+        "id": "D64",
+        "group": "Riverside",
+        "x": 4.65,
+        "y": 2.602,
+        "population": 550,
+        "vulnerability": 0.437,
+        "heat": 1.244
+      },
+      {
+        "id": "D65",
+        "group": "Riverside",
+        "x": 3.731,
+        "y": 2.681,
+        "population": 568,
+        "vulnerability": 0.618,
+        "heat": 1.271
+      },
+      {
+        "id": "D66",
+        "group": "Riverside",
+        "x": 4.152,
+        "y": 2.614,
+        "population": 278,
+        "vulnerability": 0.767,
+        "heat": 1.383
+      },
+      {
+        "id": "D67",
+        "group": "Riverside",
+        "x": 4.238,
+        "y": 2.101,
+        "population": 465,
+        "vulnerability": 0.796,
+        "heat": 1.304
+      },
+      {
+        "id": "D68",
+        "group": "Riverside",
+        "x": 4.443,
+        "y": 2.452,
+        "population": 466,
+        "vulnerability": 0.363,
+        "heat": 1.48
+      },
+      {
+        "id": "D69",
+        "group": "Riverside",
+        "x": 4.459,
+        "y": 2.899,
+        "population": 338,
+        "vulnerability": 0.646,
+        "heat": 1.377
+      },
+      {
+        "id": "D70",
+        "group": "Riverside",
+        "x": 4.594,
+        "y": 3.012,
+        "population": 307,
+        "vulnerability": 0.728,
+        "heat": 1.171
+      },
+      {
+        "id": "D71",
+        "group": "Riverside",
+        "x": 4.232,
+        "y": 2.718,
+        "population": 337,
+        "vulnerability": 0.245,
+        "heat": 1.409
+      },
+      {
+        "id": "D72",
+        "group": "Riverside",
+        "x": 3.79,
+        "y": 3.371,
+        "population": 558,
+        "vulnerability": 0.924,
+        "heat": 1.165
+      }
+    ],
+    "sites": [
+      {
+        "id": "H01",
+        "name": "Westbank \u00b7 1",
+        "x": 0.754,
+        "y": 0.899,
+        "cost": 34.0
+      },
+      {
+        "id": "H02",
+        "name": "Westbank \u00b7 2",
+        "x": 0.36,
+        "y": 0.1,
+        "cost": 31.0
+      },
+      {
+        "id": "H03",
+        "name": "Westbank \u00b7 3",
+        "x": 0.739,
+        "y": 1.122,
+        "cost": 54.0
+      },
+      {
+        "id": "H04",
+        "name": "Westbank \u00b7 4",
+        "x": 0.556,
+        "y": 0.953,
+        "cost": 37.0
+      },
+      {
+        "id": "H05",
+        "name": "Old Quarter \u00b7 1",
+        "x": 1.183,
+        "y": 0.911,
+        "cost": 38.0
+      },
+      {
+        "id": "H06",
+        "name": "Old Quarter \u00b7 2",
+        "x": 1.7,
+        "y": 1.057,
+        "cost": 35.0
+      },
+      {
+        "id": "H07",
+        "name": "Old Quarter \u00b7 3",
+        "x": 2.487,
+        "y": 0.988,
+        "cost": 47.0
+      },
+      {
+        "id": "H08",
+        "name": "Old Quarter \u00b7 4",
+        "x": 2.601,
+        "y": 0.563,
+        "cost": 30.0
+      },
+      {
+        "id": "H09",
+        "name": "Eastbank \u00b7 1",
+        "x": 5.002,
+        "y": 0.295,
+        "cost": 29.0
+      },
+      {
+        "id": "H10",
+        "name": "Eastbank \u00b7 2",
+        "x": 3.992,
+        "y": 1.533,
+        "cost": 39.0
+      },
+      {
+        "id": "H11",
+        "name": "Eastbank \u00b7 3",
+        "x": 4.814,
+        "y": 0.818,
+        "cost": 48.0
+      },
+      {
+        "id": "H12",
+        "name": "Eastbank \u00b7 4",
+        "x": 3.843,
+        "y": 0.867,
+        "cost": 54.0
+      },
+      {
+        "id": "H13",
+        "name": "Garden \u00b7 1",
+        "x": 1.344,
+        "y": 2.184,
+        "cost": 51.0
+      },
+      {
+        "id": "H14",
+        "name": "Garden \u00b7 2",
+        "x": 0.519,
+        "y": 2.79,
+        "cost": 25.0
+      },
+      {
+        "id": "H15",
+        "name": "Garden \u00b7 3",
+        "x": 0.719,
+        "y": 2.759,
+        "cost": 24.0
+      },
+      {
+        "id": "H16",
+        "name": "Garden \u00b7 4",
+        "x": 0.905,
+        "y": 2.796,
+        "cost": 31.0
+      },
+      {
+        "id": "H17",
+        "name": "Market \u00b7 1",
+        "x": 3.064,
+        "y": 2.764,
+        "cost": 27.0
+      },
+      {
+        "id": "H18",
+        "name": "Market \u00b7 2",
+        "x": 2.817,
+        "y": 2.249,
+        "cost": 55.0
+      },
+      {
+        "id": "H19",
+        "name": "Market \u00b7 3",
+        "x": 2.387,
+        "y": 2.704,
+        "cost": 46.0
+      },
+      {
+        "id": "H20",
+        "name": "Market \u00b7 4",
+        "x": 1.278,
+        "y": 2.308,
+        "cost": 25.0
+      },
+      {
+        "id": "H21",
+        "name": "Riverside \u00b7 1",
+        "x": 3.784,
+        "y": 2.613,
+        "cost": 48.0
+      },
+      {
+        "id": "H22",
+        "name": "Riverside \u00b7 2",
+        "x": 3.7,
+        "y": 2.482,
+        "cost": 30.0
+      },
+      {
+        "id": "H23",
+        "name": "Riverside \u00b7 3",
+        "x": 4.42,
+        "y": 2.629,
+        "cost": 35.0
+      },
+      {
+        "id": "H24",
+        "name": "Riverside \u00b7 4",
+        "x": 4.514,
+        "y": 2.821,
+        "cost": 27.0
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "normal",
+        "walking_multiplier": 1.0,
+        "unavailable": []
+      },
+      {
+        "id": "heatwave",
+        "walking_multiplier": 1.25,
+        "unavailable": []
+      },
+      {
+        "id": "heatwave_without_H01",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H01"
+        ]
+      },
+      {
+        "id": "heatwave_without_H02",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H02"
+        ]
+      },
+      {
+        "id": "heatwave_without_H03",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H03"
+        ]
+      },
+      {
+        "id": "heatwave_without_H04",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H04"
+        ]
+      },
+      {
+        "id": "heatwave_without_H05",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H05"
+        ]
+      },
+      {
+        "id": "heatwave_without_H06",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H06"
+        ]
+      },
+      {
+        "id": "heatwave_without_H07",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H07"
+        ]
+      },
+      {
+        "id": "heatwave_without_H08",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H08"
+        ]
+      },
+      {
+        "id": "heatwave_without_H09",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H09"
+        ]
+      },
+      {
+        "id": "heatwave_without_H10",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H10"
+        ]
+      },
+      {
+        "id": "heatwave_without_H11",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H11"
+        ]
+      },
+      {
+        "id": "heatwave_without_H12",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H12"
+        ]
+      },
+      {
+        "id": "heatwave_without_H13",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H13"
+        ]
+      },
+      {
+        "id": "heatwave_without_H14",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H14"
+        ]
+      },
+      {
+        "id": "heatwave_without_H15",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H15"
+        ]
+      },
+      {
+        "id": "heatwave_without_H16",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H16"
+        ]
+      },
+      {
+        "id": "heatwave_without_H17",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H17"
+        ]
+      },
+      {
+        "id": "heatwave_without_H18",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H18"
+        ]
+      },
+      {
+        "id": "heatwave_without_H19",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H19"
+        ]
+      },
+      {
+        "id": "heatwave_without_H20",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H20"
+        ]
+      },
+      {
+        "id": "heatwave_without_H21",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H21"
+        ]
+      },
+      {
+        "id": "heatwave_without_H22",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H22"
+        ]
+      },
+      {
+        "id": "heatwave_without_H23",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H23"
+        ]
+      },
+      {
+        "id": "heatwave_without_H24",
+        "walking_multiplier": 1.25,
+        "unavailable": [
+          "H24"
+        ]
+      }
+    ]
+  },
+  "greedy_note": "Deterministic; repeated across seeds for table alignment only. Partial-set scoring calls are included; it does not consume the equal search budget."
+}
